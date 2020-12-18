@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Splash">
+
+    <RelativeLayout
+        android:id="@+id/RLSplashLogoContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:contentDescription="@string/APP_NAME"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/logo_launcher" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/RLSplashNameContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp">
+
+        <TextView
+            android:id="@+id/TVSPlashAppNameShowing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/cutive"
+            android:gravity="center"
+             android:padding="10dp"
+            android:text="@string/APP_NAME"
+
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/TVSPlashAppSloganShowing"
+            android:layout_below="@+id/TVSPlashAppNameShowing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/slogan"
+            android:textAlignment="center"
+            android:textColor="@color/colorSecondPrimary"
+            android:textSize="15sp"
+
+            android:textStyle="bold" />
+    </RelativeLayout>
+    
+</RelativeLayout>

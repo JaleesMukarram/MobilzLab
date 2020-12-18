@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#62a70f</color>
+    <color name="colorPrimaryDark">#4b800d</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="colorGreenBlur">#1D62A70F</color>
+
+    <color name="colorSecondPrimary">#1c4771</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorLemon">#beed02</color>
+
+    <color name="colorGreen">#07ba22</color>
+    <color name="colorGreenDark">#0d8703</color>
+    <color name="colorGreenLight">#1fcc10</color>
+    <color name="colorGreenParrot">#3cff2b</color>
+
+    <color name="colorRed">#eb0c0c</color>
+    <color name="colorRedLight">#ff1f1f</color>
+    <color name="colorRedDark">#c70a0a</color>
+
+
+    <color name="colorBlue">#004d85</color>
+    <color name="colorBlueDark">#063c63</color>
+    <color name="colorBlueLight">#0e8de8</color>
+
+
+    <color name="colorSkyBlue">#0dc6de</color>
+    <color name="colorSkyBlueDark">#07a3b8</color>
+    <color name="colorSkyBlueLight">#54ebff</color>
+
+
+    <color name="colorYellow">#ffe100</color>
+    <color name="colorYellowDark">#d9c007</color>
+    <color name="colorYellowLight">#ffe840</color>
+
+    <color name="colorOrange">#e84a07</color>
+    <color name="colorOrangeDark">#d14002</color>
+    <color name="colorOrangeLight">#ff621f</color>
+    <color name="colorOrangeBlur">#86E84A07</color>
+
+
+    <color name="colorPink">#eb0c6c</color>
+    <color name="colorPinkDark">#cc0a5e</color>
+    <color name="colorPinkLight">#ff4294</color>
+
+
+    <color name="colorPurple">#6206d1</color>
+    <color name="colorPurpleDark">#5207ad</color>
+    <color name="colorPurpleLight">#8f37fa</color>
+
+    <color name="colorGray">#D3D3D3</color>
+    <color name="colorGrayDark">#b3b3b3</color>
+    <color name="colorGrayLight">#ebebeb</color>
+    <color name="colorGrayText">#757575</color>
+
+
+    <color name="emi_tenure_select_row_bg">#f2f2f2</color>
+    <color name="add_amount_grey">#A9A9A9</color>
+
+
+
+
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "534034365014",
+    "firebase_url": "https://mobilz-lab.firebaseio.com",
+    "project_id": "mobilz-lab",
+    "storage_bucket": "mobilz-lab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534034365014:android:3cce43cb653226c9ac19f7",
+        "android_client_info": {
+          "package_name": "com.learning.mobilzlab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534034365014-hf4bloppl7vq8f3eil5faf69763qnfvv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF4pSYsD1nTIBkX9rPa3ZyOkCQg4_Jkac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534034365014-hf4bloppl7vq8f3eil5faf69763qnfvv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/MUHome"
+        android:icon="@drawable/ic_home_selected"
+        android:title="Home"
+        />
+
+    <item android:id="@+id/MUServices"
+        android:icon="@drawable/ic_our_services_selected"
+        android:title="Services"
+        />
+
+    <item android:id="@+id/MUAboutUs"
+        android:icon="@drawable/ic_about_us_selected"
+        android:title="About Us"
+        />
+    <item android:id="@+id/MUContactUs"
+        android:icon="@drawable/ic_contact_us_selected"
+        android:title="Contact Us"
+        />
+
+
+
+</menu>

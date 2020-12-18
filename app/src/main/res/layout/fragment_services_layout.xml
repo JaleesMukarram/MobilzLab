@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--    FragmentServices-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <RelativeLayout
+            android:id="@+id/RLFragmentServicesTopContainer"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/colorPrimary" >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/all_services"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RLFragmentServicesIphoneRepair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RLFragmentServicesTopContainer"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/menu_bg" >
+
+            <RelativeLayout
+                android:id="@+id/RLFragmentServicesIPhoneDetailsShowing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RLFragmentServicesHideContainerIphone">
+
+                <ImageView
+                    android:id="@+id/IVFragmentServicesIPhoneShowing"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="0dp"                        android:contentDescription="@string/hepling_icon"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/iphone_repair" />
+
+                <TextView
+                    android:id="@+id/TVFragmentServicesIPhoneLongTextShowing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/IVFragmentServicesIPhoneShowing"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/the_first_iphone_was_released_on_june_29_2007_and_in_the_short_space_of_10_years_this_pocket_sized_device_has_completely_changed_the_world_in_a_number_of_ways_first_the_iphone_set_the_standard_for_smartphone_technology_with_its_smooth_feel_and_its_minimalist_design_every_smartphone_that_has_come_since_then_has_shared_this_same_general_aesthetic"
+                    android:textColor="@color/colorSecondPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/RLFragmentServicesHideContainerIphone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true">
+
+                <ImageView
+                    android:id="@+id/IVFragmentServicesIPhoneButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"                        android:contentDescription="@string/hepling_icon"
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_arrow_drop_down_24" />
+
+                <TextView
+                    android:id="@+id/TVFragmentServicesIPhoneShowing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:padding="10dp"
+                    android:text="@string/iphone"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RLFragmentServicesAndroidRepair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RLFragmentServicesIphoneRepair"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/menu_bg" >
+
+            <RelativeLayout
+                android:id="@+id/RLFragmentServicesAndroidDetailsShowing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RLFragmentServicesHideContainerAndroid">
+
+                <ImageView
+                    android:id="@+id/IVFragmentServicesAndroidShowing"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="0dp"
+                    android:scaleType="fitXY"                        android:contentDescription="@string/hepling_icon"
+
+                    android:src="@drawable/android_repair" />
+
+                <TextView
+                    android:id="@+id/TVFragmentServicesAndroidLongTextShowing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/IVFragmentServicesAndroidShowing"
+                    android:paddingStart="20dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="20dp"
+                    android:paddingBottom="20dp"
+                    android:text="@string/do_you_need_trusted_android_repair_in_islamabad_if_so_stop_by_mobilzlab_shop_today_our_top_rated_technicians_are_available_today_to_help_you_fix_any_problem_quickly_and_correctly_did_your_phone_stop_working_with_no_explanation_we_can_help_maybe_your_toddler_tossed_your_phone_across_the_parking_lot_accidentally_of_course_no_worries_we_fix_cracked_screens_all_day_every_day"
+                    android:textColor="@color/colorSecondPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/RLFragmentServicesHideContainerAndroid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true">
+
+                <ImageView
+                    android:id="@+id/IVFragmentServicesAndroidButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"                        android:contentDescription="@string/hepling_icon"
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_arrow_drop_down_24" />
+
+                <TextView
+                    android:id="@+id/TVFragmentServicesAndroidShowing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:padding="10dp"
+                    android:text="@string/android"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RLFragmentServicesICloudRepair"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RLFragmentServicesAndroidRepair"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/menu_bg" >
+
+            <RelativeLayout
+                android:id="@+id/RLFragmentServicesICloudDetailsShowing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RLFragmentServicesHideContainerICloud">
+
+                <ImageView
+                    android:id="@+id/IVFragmentServicesICloudShowing"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_margin="0dp"
+                    android:scaleType="fitXY"                        android:contentDescription="@string/hepling_icon"
+
+                    android:src="@drawable/iphone_repair" />
+
+                <TextView
+                    android:id="@+id/TVFragmentServicesICloudLongTextShowing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/IVFragmentServicesICloudShowing"
+                    android:padding="10dp"
+                    android:textColor="@color/colorSecondPrimary"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/RLFragmentServicesHideContainerICloud"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true">
+
+                <ImageView
+                    android:id="@+id/IVFragmentServicesICloudButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"                        android:contentDescription="@string/hepling_icon"
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_arrow_drop_down_24" />
+
+                <TextView
+                    android:id="@+id/TVFragmentServicesICloudShowing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:padding="10dp"
+                    android:text="@string/icloud"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RLFragmentServicesFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RLFragmentServicesICloudRepair"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/menu_bg" >
+
+            <RelativeLayout
+                android:id="@+id/RLFragmentServicesFeedbackDetailsShowing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RLFragmentServicesHideContainerFeedback">
+
+
+                <Button
+                    android:id="@+id/BTNFragmentServicesProvideFeedback"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/IVFragmentServicesFeedbackShowing"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/round_primary"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:text="@string/provide_feedback"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:id="@+id/IVFragmentServicesFeedbackShowing"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"                        android:contentDescription="@string/hepling_icon"
+
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="50dp"
+                    android:src="@drawable/ic_review" />
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/RVFragmentServicesAllFeedbackShowing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/BTNFragmentServicesProvideFeedback"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="50dp" />
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/RLFragmentServicesHideContainerFeedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true">
+
+                <ImageView
+                    android:id="@+id/IVFragmentServicesFeedbackButton"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"                        android:contentDescription="@string/hepling_icon"
+
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_baseline_arrow_drop_down_24" />
+
+                <TextView
+                    android:id="@+id/TVFragmentServicesFeedbackShowing"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentEnd="true"
+                    android:padding="10dp"
+                    android:text="@string/feedbacks"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RVServicesFragmentAllBrandsRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/RLFragmentServicesFeedback"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</ScrollView>

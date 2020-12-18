@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/menu_bg">
+
+    <RelativeLayout
+        android:id="@+id/RLAdminDialogueTopContainer"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Admin Page Password"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RLAdminDialogueTopContainer"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:theme="@style/SignUp"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:id="@+id/TVAdminDialogueInsertPasswordShowing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Please enter your admin password"
+            android:textColor="@color/colorSecondPrimary"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ETAdminDialoguePasswordAsking"
+            android:layout_below="@+id/TVAdminDialogueInsertPasswordShowing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:layout_margin="20dp"
+
+            />
+
+        <Button
+            android:id="@+id/BTNSignUpRegisterNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/round_primary"
+            android:elevation="12dp"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:text="Enter"
+            android:layout_below="@+id/ETAdminDialoguePasswordAsking"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp" />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

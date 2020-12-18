@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--    HomeFragment-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/RLHomeFragmentServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RLHomeFragmentImageSliderInclude">
+
+            <!-- Free and Fast Return-->
+            <RelativeLayout
+                android:id="@+id/RLHomeFragmentBenefitContainer1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:background="@drawable/menu_bg"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/IVSingleBenefitBenefitImageShowing1"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/hepling_icon"
+                    android:src="@drawable/fast_return" />
+
+                <TextView
+                    android:id="@+id/TVSingleBenefitBenefitTextShowing1"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/IVSingleBenefitBenefitImageShowing1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/benefit_1"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TVSingleBenefitBenefitSubTextShowing1"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TVSingleBenefitBenefitTextShowing1"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:padding="0dp"
+                    android:text="@string/benefit_sub_1"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+
+            </RelativeLayout>
+
+
+            <!-- Free Pic & Drop-->
+            <RelativeLayout
+                android:id="@+id/RLHomeFragmentBenefitContainer2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/RLHomeFragmentBenefitContainer1"
+                android:layout_margin="20dp"
+                android:background="@drawable/menu_bg"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/IVSingleBenefitBenefitImageShowing2"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/hepling_icon"
+                    android:src="@drawable/free_pickdrop" />
+
+                <TextView
+                    android:id="@+id/TVSingleBenefitBenefitTextShowing2"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/IVSingleBenefitBenefitImageShowing2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/benefit_2"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TVSingleBenefitBenefitSubTextShowing2"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TVSingleBenefitBenefitTextShowing2"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/benefit_sub_2"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+
+            </RelativeLayout>
+
+
+            <!-- Professional Staff-->
+            <RelativeLayout
+                android:id="@+id/RLHomeFragmentBenefitContainer3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/RLHomeFragmentBenefitContainer2"
+                android:layout_margin="20dp"
+                android:background="@drawable/menu_bg"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/IVSingleBenefitBenefitImageShowing3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+
+                    android:layout_centerHorizontal="true"
+                    android:contentDescription="@string/hepling_icon"
+                    android:src="@drawable/professional_staff" />
+
+                <TextView
+                    android:id="@+id/TVSingleBenefitBenefitTextShowing3"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/IVSingleBenefitBenefitImageShowing3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/benefit_3"
+                    android:textColor="@color/colorPrimary"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/TVSingleBenefitBenefitSubTextShowing3"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/TVSingleBenefitBenefitTextShowing3"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:text="@string/benefit_sub_3"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="14sp" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RVHomeFragmentAllBrandsRecycler"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/RLHomeFragmentBenefitsInclude" />
+
+        <include
+            android:id="@+id/RLHomeFragmentBenefitsInclude"
+            layout="@layout/repair_studio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RLHomeFragmentServices"
+            android:layout_marginBottom="20dp" />
+
+        <include
+            android:id="@+id/RLHomeFragmentImageSliderInclude"
+            layout="@layout/image_slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

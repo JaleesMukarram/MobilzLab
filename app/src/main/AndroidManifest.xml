@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.learning.mobilzlab">
+
+    <application
+        android:name=".Notifications.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activities.Gallery"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenGalleryShowing" />
+        <activity
+            android:name=".Activities.AdminAllChatsView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.AdminProblemDetails"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.AdminScheduleBookView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.AdminView"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.SendChat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.ClientForm"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.HomeScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activities.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <meta-data
+            android:name="com.google.android.gms.API_KEY"
+            android:value="@string/API_KEY" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/storage_provider_path" />
+        </provider>
+
+
+        <service
+            android:name=".Services.FirebaseSyncService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+
+    </application>
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+</manifest>

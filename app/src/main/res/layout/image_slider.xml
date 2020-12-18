@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/menu_bg">
+
+    <!--    ImageSlider-->
+
+    <ImageView
+        android:id="@+id/IVImageSliderSliderImage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+
+        android:contentDescription="@string/hepling_icon"
+        android:scaleType="centerCrop"
+        android:src="@drawable/slider_1" />
+
+    <ImageView
+        android:id="@+id/IVmageSliderLeftSlider"
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:background="@color/colorTransparent"
+
+        android:contentDescription="@string/hepling_icon"
+        android:src="@drawable/left_arrow" />
+
+    <ImageView
+        android:id="@+id/IVmageSliderRightSlider"
+        android:layout_width="40dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+
+        android:background="@color/colorTransparent"
+        android:contentDescription="@string/hepling_icon"
+        android:src="@drawable/right_arrow" />
+
+    <TextView
+        android:id="@+id/TVImageSliderMainText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/IVImageSliderSliderImage"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="20dp"
+        android:text="@string/slider_1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/TVImageSliderSecondText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVImageSliderMainText"
+        android:layout_centerHorizontal="true"
+        android:paddingStart="20dp"
+        android:paddingTop="20dp"
+        android:paddingEnd="40dp"
+        android:paddingBottom="10dp"
+        android:text="@string/slider_sub"
+        android:textColor="@color/colorSecondPrimary"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>

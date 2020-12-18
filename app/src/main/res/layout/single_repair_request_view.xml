@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/menu_bg">
+
+    <!--    SingleRepairRequest-->
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CVSingleRepairRequestRequestContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:elevation="10dp"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+
+            <TextView
+                android:id="@+id/TVSingleRepairRequestNameShowing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                 android:textColor="@color/colorBlack"
+                android:textSize="18sp"
+
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TVSingleRepairRequestTimeShowing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                 android:textColor="@color/colorSecondPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+
+                />
+
+            <TextView
+                android:id="@+id/TVSingleRepairRequestMobileShowing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TVSingleRepairRequestNameShowing"
+                android:layout_marginTop="20dp"
+                 android:textColor="@color/colorPrimary"
+                android:textSize="16sp"
+
+                android:textStyle="bold"
+
+                />
+
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

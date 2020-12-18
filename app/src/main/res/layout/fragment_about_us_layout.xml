@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/RLAboutUs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/menu_bg">
+
+        <RelativeLayout
+            android:id="@+id/RLAboutUsTopContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true">
+
+
+            <ImageView
+                android:id="@+id/TVFragmentAboutUsAboutUsImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="30dp"
+                android:contentDescription="@string/hepling_icon"
+                android:src="@drawable/logo_launcher" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/TVFragmentAboutUsAboutUsImage"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:paddingStart="20dp"
+                android:paddingTop="5dp"
+                android:paddingEnd="20dp"
+                android:text="@string/about_us"
+                android:textColor="@color/colorSecondPrimary"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/INCAboutUsAddressContainer">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/RLAboutUsFreeDiagnosticsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:elevation="12dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/RLAboutUsFreeDiagnosticsIconContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="40dp">
+
+                    <ImageView
+                        android:id="@+id/IVAboutUsFreeDiagnosticsIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+
+                        android:contentDescription="@string/hepling_icon"
+                        android:src="@drawable/ic_repair_24" />
+
+                    <TextView
+                        android:id="@+id/TVFragmentAboutUsFreeDiagnosticsShowing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/IVAboutUsFreeDiagnosticsIcon"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="20dp"
+                        android:text="@string/free_diagnostics"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlue"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TVFragmentAboutUsFreeDiagnosticsShowing"
+                        android:text="@string/desc"
+                        android:textColor="@color/colorGrayText"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/RLAboutUsQuickRepairProcessContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RLAboutUsFreeDiagnosticsContainer"
+                android:layout_margin="20dp"
+                android:elevation="12dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/RLAboutUsQuickRepairProcessIconContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="40dp">
+
+                    <ImageView
+                        android:id="@+id/IVAboutUsQuickRepairProcessIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+                        android:contentDescription="@string/hepling_icon"
+                        android:src="@drawable/ic_settings" />
+
+                    <TextView
+                        android:id="@+id/TVFragmentAboutUsQuickRepairProcessShowing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/IVAboutUsQuickRepairProcessIcon"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="20dp"
+                        android:text="@string/quick_repair_process"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorRed"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TVFragmentAboutUsQuickRepairProcessShowing"
+                        android:text="@string/the_repair_process_is_fast_and_convenient_and_our_expert_teams_of_mobilzlab_if_you_see_a_phone_symbol_in_the_top_left_corner_of_the_screen"
+                        android:textColor="@color/colorGrayText"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/RLAboutUs247CustomerSupportContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/RLAboutUsQuickRepairProcessContainer"
+                android:layout_margin="20dp"
+                android:elevation="12dp"
+                app:cardCornerRadius="20dp">
+
+                <RelativeLayout
+                    android:id="@+id/RLAboutUs247CustomerSupportIconContainer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="40dp">
+
+                    <ImageView
+                        android:id="@+id/IVAboutUs247CustomerSupportIcon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_centerHorizontal="true"
+
+                        android:contentDescription="@string/hepling_icon"
+                        android:src="@drawable/ic_24_hours_support" />
+
+                    <TextView
+                        android:id="@+id/TVFragmentAboutUs247CustomerSupportShowing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/IVAboutUs247CustomerSupportIcon"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="20dp"
+                        android:text="@string/_24_7_customer_support"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorPurple"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/TVFragmentAboutUs247CustomerSupportShowing"
+                        android:text="@string/_24x7_techsupport_is_one_of_the_best_services_in_the_mobilzlab_24x7_tech_support_providing_quality_services_at_anytime_anywhere_in_the_pakistan"
+                        android:textColor="@color/colorGrayText"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/INCAboutUsAddressContainer"
+            layout="@layout/address_and_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RLAboutUsTopContainer"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="20dp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+     android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingStart="10dp"
+    android:paddingTop="5dp"
+    android:paddingEnd="10dp"
+    android:paddingBottom="10dp">
+
+    <!--    BottomMenu-->
+
+    <LinearLayout
+        android:id="@+id/LLBottomMenuHomeContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/IVBottomMenuHome"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/hepling_icon"
+            android:src="@drawable/ic_home_selected" />
+
+        <TextView
+            android:id="@+id/TVBottomMenuHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLBottomMenuServicesContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/IVBottomMenuServices"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/hepling_icon"
+            android:src="@drawable/ic_our_services_un_selected" />
+
+        <TextView
+            android:id="@+id/TVBottomMenuServices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/services"
+            android:textColor="@color/colorSecondPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLBottomMenuAboutUsContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/IVBottomMenuAboutUs"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/hepling_icon"
+            android:src="@drawable/ic_about_us_un_selected" />
+
+        <TextView
+            android:id="@+id/TVBottomMenuAboutUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_us_home"
+            android:textColor="@color/colorSecondPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LLBottomMenuContactUsContainer"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/IVBottomMenuContactUs"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/hepling_icon"
+            android:src="@drawable/ic_contact_us_un_selected" />
+
+        <TextView
+            android:id="@+id/TVBottomMenuContactUs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/contact_us_home"
+            android:textColor="@color/colorSecondPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

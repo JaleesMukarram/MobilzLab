@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RLQueryUserMainContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/bg_rounded_grey_border"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:orientation="vertical"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/IVQueryUser"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/hepling_icon"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/round_primary" />
+
+
+    <TextView
+        android:id="@+id/TVQueryUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/IVQueryUser"
+        android:fontFamily="@font/product"
+        android:padding="10dp"
+         android:textColor="@color/colorBlack"
+        android:textSize="16sp"
+
+        />
+
+    <TextView
+        android:id="@+id/TVQueryLastDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_11m"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="20dp"
+        />
+
+    <TextView
+        android:id="@+id/TVQueryUserUnreadMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVQueryUserName"
+        android:layout_toEndOf="@+id/IVQueryUser"
+        android:fontFamily="@font/productb"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/unread_messages"
+        android:textColor="@color/colorOrangeDark"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/TVQueryUserTotalMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TVQueryUserUnreadMessages"
+        android:layout_toEndOf="@+id/IVQueryUser"
+        android:fontFamily="@font/roboto_regular"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:text="@string/_37_messages_received"
+        android:textColor="@color/colorGray"
+        android:textSize="16sp" />
+
+
+</RelativeLayout>
